@@ -1,8 +1,6 @@
 .container{
-    display: flex;
+    display: grid;
     /* width:18rem; */
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
-    
 }
