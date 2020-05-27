@@ -14,7 +14,6 @@ const Cards = ({ data }) => {
 
             <div className={styles.local}>
                 <div className="card" className={styles.cardinfected}>
-                    {/* <img src="{infected}" alt=""/> */}
                     <div className="card-body" className={styles.cardbody}>
                     <p className="card-text">Total Confirmed Cases<br></br><b><span className={styles.value}>{data.data?.local_total_cases}</span></b></p>
                     </div>
@@ -22,14 +21,12 @@ const Cards = ({ data }) => {
                 
 
                 <div className="card" className={styles.cardrecovered}>
-                    {/* <img src="..." class="card-img-top" alt="..."> */}
                     <div className="card-body" className={styles.cardbody}>
                     <p className="card-text">Recovered <br></br><b><span className={styles.value}>{data.data?.local_recovered}</span></b></p>
                      </div>
                 </div>
 
                 <div className="card" className={styles.carddeath} >
-                    {/* <img src="..." class="card-img-top" alt="..."> */}
                     <div className="card-body"className={styles.cardbody}>
                     <p className="card-text">Deaths <br></br><b><span className={styles.value}>{data.data?.local_deaths}</span></b></p>
                      </div>
@@ -40,21 +37,18 @@ const Cards = ({ data }) => {
         <h1>GLOBAL CASES</h1>
         <div className={styles.global}>
                 <div className="card" className={styles.cardinfected}>
-                    {/* <img src="..." class="card-img-top" alt="..."> */}
                     <div className="card-body" className={styles.cardbody}>
                     <p className="card-text">Total Confirmed Cases<br></br><b><span className={styles.value}>{data.data?.global_total_cases}</span></b></p>
                      </div>
                 </div>
 
                 <div className="card" className={styles.cardrecovered}>
-                    {/* <img src="..." class="card-img-top" alt="..."> */}
                     <div class="card-body" className={styles.cardbody}> 
                     <p class="card-text">Recovered<br></br><b><span className={styles.value}>{data.data?.global_recovered}</span></b></p>
                      </div>
                 </div>
 
                 <div className="card" className={styles.carddeath}>
-                    {/* <img src="..." class="card-img-top" alt="..."> */}
                     <div className="card-body" className={styles.cardbody}>
                     <p class="card-text">Deaths<br></br><b><span className={styles.value}>{data.data?.global_deaths}</span></b></p>
                      </div>

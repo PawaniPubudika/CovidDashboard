@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Charts=()=>{
 
+const Charts=()=>{
     return(
         <h1>Charts</h1>
 
