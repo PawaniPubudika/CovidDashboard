@@ -1,8 +1,47 @@
 .container{
-    display: flex;
+    display: grid;
     /* width:18rem; */
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
     
+}
+
+.local{
+    display: inline-flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+} 
+
+.global{
+    display: inline-flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.cardinfected{
+    background-color: rgb(215,65,54);    
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cardrecovered{
+    background-color: yellow;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.carddeath{
+    background-color: wheat;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.cardbody{
+    padding: 100px;
+}
+
+
+.value{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

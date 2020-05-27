@@ -2,5 +2,5 @@
     display: grid;
     /* width:18rem; */
     align-items: center;
-    justify-content: center;
+    justify-content: initial;
 }
