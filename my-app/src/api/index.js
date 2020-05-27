@@ -2,11 +2,10 @@
 
  const url='https://www.hpb.health.gov.lk/api/get-current-statistical';
 
- export const fetchdata = async()=>{
+ export const fetchdata = async () =>{
      try{
-         const response= await axios.get(url);
-         return(response);
-        
+         const {data: {data} } = await axios.get(url);
+         return {data};
         }
      catch(error){
 
