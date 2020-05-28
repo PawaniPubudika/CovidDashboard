@@ -15,7 +15,8 @@ const Cards = ({ data }) => {
             <div className={styles.local}>
                 <div className="card" className={styles.cardinfected}>
                     <div className="card-body" className={styles.cardbody}>
-                    <p className="card-text">Total Confirmed Cases<br></br><b><span className={styles.value}>{data.data?.local_total_cases}</span></b></p>
+                    <p className="card-text">Total Confirmed Cases<br></br><b><span className={styles.value}>{data.data?.local_total_cases}</span></b><br></br><span className={styles.date}>{data.data?.update_date_time}</span></p>
+                    
                     </div>
                 </div>
                 
@@ -38,7 +39,7 @@ const Cards = ({ data }) => {
         <div className={styles.global}>
                 <div className="card" className={styles.cardinfected}>
                     <div className="card-body" className={styles.cardbody}>
-                    <p className="card-text">Total Confirmed Cases<br></br><b><span className={styles.value}>{data.data?.global_total_cases}</span></b></p>
+                    <p className="card-text">Total Confirmed Cases<br></br><b><span className={styles.value}>{data.data?.global_total_cases}</span></b><br></br><span className={styles.date}>{data.data?.update_date_time}</span></p>
                      </div>
                 </div>
 

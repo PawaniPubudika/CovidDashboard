@@ -2,6 +2,7 @@ import React from 'react';
 import Cards from './components/Cards/Cards';
 import Charts from './components/Charts/Charts';
 import Search from './components/Search/Search';
+import Carousel from './components/Carousel/Carousel';
 import Navigation from './components/Navigation/navigation';
 import styles from './App.module.css';
 import { fetchdata } from "./api";
@@ -31,8 +32,9 @@ class App extends React.Component{
         return(
         <div className={styles.container}>
                 <Navigation/>
+                <Carousel/>
                 <Cards data={data}/>
-                <Charts/>
+                <br></br><br></br><br></br><br></br>
                 <Search/>
         </div>
             
