@@ -4,3 +4,12 @@
     align-items: center;
     justify-content: initial;
 }
+
+.carousel{
+    width: 300px;
+
+}
+
+.topic{
+    margin-left: 50px;
+}

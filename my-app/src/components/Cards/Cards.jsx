@@ -10,7 +10,7 @@ const Cards = ({ data }) => {
 
     return(
         <div className={styles.container}>
-            <h1>LOCAL CASES</h1>
+            <h2>Local Cases</h2>
 
             <div className={styles.local}>
                 <div className="card" className={styles.cardinfected}>
@@ -35,7 +35,7 @@ const Cards = ({ data }) => {
         </div>
         <br/><br></br><br></br>
         
-        <h1>GLOBAL CASES</h1>
+        <h2>Global Cases</h2>
         <div className={styles.global}>
                 <div className="card" className={styles.cardinfected}>
                     <div className="card-body" className={styles.cardbody}>
