@@ -3,11 +3,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import welcome_img from '../../images/welcome_img.png';
 import contact_img from '../../images/contact_img.png';
-import infor_img from '../../images/infor_img.png';
+import infor_img from '../../images/infor_img.jpg';
 
 
 const Carousel=()=>{
-
     return(
         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
@@ -15,10 +14,10 @@ const Carousel=()=>{
                 <img src={welcome_img} className="d-block w-100" alt=""></img>
                 </div>
                 <div className="carousel-item">
-                <img src={infor_img.png} className="d-block w-100" alt=""></img>
+                <img src={infor_img} className="d-block w-100" alt=""></img>
                 </div>
                 <div className="carousel-item">
-                <img src={contact_img.png} className="d-block w-100" alt="..."></img>
+                <img src={contact_img} className="d-block w-100" alt="..."></img>
             </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

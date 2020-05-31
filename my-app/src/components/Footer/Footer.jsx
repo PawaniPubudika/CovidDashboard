@@ -9,6 +9,7 @@ const Footer=()=>{
 
     return(
         <div className={styles.footer}>
+            <h7 className={styles.number}>Ambulance Service-1990(suweseriya)</h7>
         </div>
 
     )
