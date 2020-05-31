@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from './components/Cards/Cards';
-import Chart from './components/Charts/Charts';
-import Search from './components/Search/Search';
+import Chartslocal from './components/Chartslocal/Chartslocal';
+import Chartsglobal from './components/Chartsglobal/Chartsglobal'; 
 import Carousel from './components/Carousel/Carousel';
 import Navigation from './components/Navigation/navigation';
 import styles from './App.module.css';
@@ -35,11 +35,17 @@ class App extends React.Component{
                 <Navigation/>
                 <Carousel/>
                 <Cards data={data}/>
-                <br></br><br></br>
+                <br/><br/>
                 <h2 className={styles.topic}>Current Status</h2>
-                <br></br><br></br>
-                <Chart/>
-                <Search/>
+                <br/>
+                <h3>Local</h3>
+                <Chartslocal data={data}/>
+                <br/><br/>
+                <h3>Global</h3>
+                <Chartsglobal data={data}/>
+                <br/><br/>
+                
+                
                 <Footer/>
         </div>
             

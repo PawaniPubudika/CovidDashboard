@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Cards.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import CountUp from 'react-countup' ;
+// import CountUp from 'react-countup' ;
 // import infected from "./images/infected.png"
 
 
